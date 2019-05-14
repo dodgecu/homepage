@@ -1,0 +1,30 @@
+.avatar {
+  max-width: 12rem;
+}
+.timeline.custom {
+  padding-left: 1rem;
+}
+.page .footer {
+  justify-content: center;
+}
+
+.gold:before {
+  background-color: #f0e68c;
+}
+.black:before {
+  background-color: #000;
+}
+.label {
+  position: relative;
+}
+.hash-tooltip {
+  border-radius: 5px;
+  position: absolute;
+  width: 45px;
+  min-height: 30px;
+  top: -30px;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  color: #fff;
+}
