@@ -23,13 +23,13 @@ const tooltipBox = document.createElement('div');
 tooltipBox.className = 'hash-tooltip';
 
 function showTooltip(e) {
-  e.preventDefault();
   const current = e.target;
   globalColor !== null
     ? (tooltipBox.style.backgroundColor = globalColor)
     : (tooltipBox.style.backgroundColor = 'midnightblue');
   tooltipBox.innerHTML = current.textContent;
   if (current.className === 'label') {
+    e.preventDefault();
     if (current.childNodes.length === 1) {
       current.appendChild(tooltipBox);
     } else {
