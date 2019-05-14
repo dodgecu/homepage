@@ -1,6 +1,9 @@
-.page .footer {
-  justify-content: center;
-}
 .avatar {
   max-width: 12rem;
+}
+.timeline.custom {
+  padding-left: 1rem;
+}
+.page .footer {
+  justify-content: center;
 }
