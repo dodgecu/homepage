@@ -18,7 +18,7 @@ function renderColors(e) {
   }
 }
 
-document.querySelector('.labels').addEventListener('click', showTooltip);
+document.querySelector('body').addEventListener('click', showTooltip);
 const tooltipBox = document.createElement('div');
 tooltipBox.className = 'hash-tooltip';
 
@@ -35,5 +35,7 @@ function showTooltip(e) {
     } else {
       current.removeChild(tooltipBox);
     }
+  } else {
+    tooltipBox.remove();
   }
 }
